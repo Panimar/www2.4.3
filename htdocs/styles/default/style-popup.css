@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background:#000000;
+	padding: 0px;
+	margin: 0px;
+	font-family:Arial, Helvetica, sans-serif;
+    }
+	.pop-inside-box {
+	position:relative;
+	width:360px;
+	background:#333;
+	padding:10px 20px 10px 20px;
+	margin: 30px 0px 30px 0px;
+	color:#666;
+	text-shadow:#000 0px 1px 1px;
+	font-size:12px;
+	}
+	input {
+	background:#0b0b0b;
+	border:solid 1px #070707;
+	color:#4e4e4e;
+	font-size:13px;
+	font-family:Arial, Helvetica, sans-serif;
+	width:220px; height:30px;
+    }
+	select {
+	background:#0b0b0b;
+	border:solid 1px #070707;
+	padding: 4px 4px 4px 10px;
+	font-family:Arial, Helvetica, sans-serif;
+	height:30px;
+	color:#4e4e4e;
+	}
+    #log-b3 {position:relative; display:inline-block; }
+	#log-b3 input {
+		 background:url(new_images/images-r.png) -241px -93px no-repeat;
+		 width: auto; height:31px;
+		 border:solid 1px #131313;
+		 padding:0px 12px 2px 12px;
+		 cursor: pointer;
+		 color:#4a473f;
+		 font-weight:bold;
+		 text-shadow: #fad820 1px 1px 0px;
+		 margin: 0px 0px 0px 0px;
+		 display:inline;
+		 left: -2px;
+		 font-family:Arial, Helvetica, sans-serif;
+		 cursor: pointer;
+		 }
+		 #log-b3 input:hover {
+		 border:solid 1px #ffc738;
+		 }

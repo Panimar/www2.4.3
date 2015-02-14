@@ -1,0 +1,7 @@
+<?php
+
+//DO NOT EDIT OR DELETE THIS FILE
+
+$url_parts.='&v_Vote_Shop=1.9';
+
+?>

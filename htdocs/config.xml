@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<cu3er>
+
+<settings>
+
+<auto_play>
+
+<defaults symbol="linear"/>
+<tweenIn x="0" y="5" width="523" height="7" tint="0x000000" alpha="0.5"/>
+<tweenOver alpha="1"/>
+
+</auto_play>
+
+<transitions slicing="vertical" direction="down" duration="0.6" delay="0.2" cube_color="0x611811"/>
+
+</settings>
+
+	<slides>
+	
+        <slide>
+            <url>styles/default/new_images/slide-image1.jpg</url>
+        </slide>
+		<!-- changing transition between first & second slide -->
+         <transition num="3" slicing="vertical" direction="down"/>
+        <slide>
+            <url>styles/default/new_images/slide-image2.jpg</url>
+        </slide>
+
+        <slide>
+            <url>styles/default/new_images/slide-image3.jpg</url>
+        </slide>
+        <slide>
+            <url>styles/default/new_images/slide-image4.jpg</url>
+        </slide>
+        <slide>
+            <url>styles/default/new_images/slide-image5.jpg</url>
+        </slide>
+
+		<!-- changing transition between second & third slide -->
+	</slides>
+</cu3er>
+
